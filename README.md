@@ -7,34 +7,36 @@
 
 * Layer4
 
-* VSE: UDP Valve Source Engine specific flood
-* SYN: TCP SYN flood
-* TCP: TCP junk flood
-* UDP:  UDP junk flood
-* HTTP: HTTP GET request flood
+ * VSE: UDP Valve Source Engine specific flood
+ * SYN: TCP SYN flood
+ * TCP: TCP junk flood
+ * UDP:  UDP junk flood
+ * HTTP: HTTP GET request flood
 
 * Layer7
 
-* SOCKET: Slow HTTP/1.1 socket flood
-* HTTP1: TLS HTTP/1.1 GET flood
-* HTTP2: TLS HTTP/2 GET flood
-* CRINGE: Powerful Method Target Maybe die from Cringe
+ * SOCKET: Slow HTTP/1.1 socket flood
+ * HTTP1: TLS HTTP/1.1 GET flood
+ * HTTP2: TLS HTTP/2 GET flood
+ * CRINGE: Powerful Method Target Maybe die from Cringe
 
 # Installation
 
 * Please use spoofed server for the best experience.
 
-* ```git clone https://github.com/ngdangtr/dangtrinh.git```
+* ```git clone https://github.com/ngdangtr/Trinh-V2.git```
 * ```cd Trinh-V2; sh install.sh```
 
 * Install CentOS
 
-* ```cd F-Tool; sh installCentOS.sh```
+* ```cd Trinh-V2; sh installCentOS.sh```
 
 
 
 # Contact dev
 * Telegram: @ngdangtr
+* Discord: @ngdangtr
+* Zalo: 0965849504
 
 # Donation
 * Momo: ```0965849504```
