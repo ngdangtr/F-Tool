@@ -25,7 +25,7 @@
 * Please use spoofed server for the best experience.
 
 * ```git clone https://github.com/ngdangtr/dangtrinh.git```
-* ```cd F-Tool; sh install.sh```
+* ```cd Trinh-V2; sh install.sh```
 
 * Install CentOS
 
