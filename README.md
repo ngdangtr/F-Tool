@@ -34,9 +34,9 @@
 
 
 # Contact dev
-* Telegram: @ngdangtr
-* Discord: @ngdangtr
-* Zalo: 0965849504
+* Telegram: ```@ngdangtr```
+* Discord: ```@ngdangtr```
+* Zalo: ```0965849504```
 
 # Donation
 * Momo: ```0965849504```
