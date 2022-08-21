@@ -94,7 +94,7 @@ class Home:
 				elif option in ['home', 'HOME']:
 					self.home()
 				elif option in ['clear', 'CLEAR']:
-					os.system('clear');F_Tool.home()
+					os.system('clear');Trinh-V2.home()
 				elif option in ['help', 'HELP', '?']:
 					print(self.help)
 				elif option in ['dev', 'DEV']:
