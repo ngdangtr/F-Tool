@@ -1,6 +1,6 @@
 
 
-<h1 align="center">T-Tool - Powerful DDoS Script With 9 Methods</h1>
+<h1 align="center">F-Tool - Powerful DDoS Script With 9 Methods</h1>
 <em><h5 align="center">Programming Language - Python 3</h5></em>
 
 <p align="center">Please Don't Attack government websites.</p>
@@ -26,8 +26,8 @@
 
 * Please use spoofed server for the best experience.
 
-* ```git clone https://github.com/ngdangtr/T-Tool.git```
-* ```cd T-Tool; sh install.sh```
+* ```git clone https://github.com/ngdangtr/F-Tool```
+* ```cd F-Tool; sh install.sh```
 
 * Install CentOS
 
