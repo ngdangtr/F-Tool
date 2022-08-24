@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+"""
+	 handsome list:
+		AnonPrixor ~ Yone ~ Lazercat ~ Catto ~ MrRage ~ Forky ~  Sussy Baka ~ Clowndzzy ~ Godzilla  ~ Baloo4Ever ~ fbi ~ Mrasdaas
 
 """
 from shutil import which
@@ -66,7 +69,7 @@ class Home:
     {Color.LC}╠╣{Color.LB}{Color.LR}───{Color.LB}║ ║ ║║ ║║      {Color.LG}║ {Color.LR}Updated: {Color.LY}8/3/22      {Color.LG}║
     {Color.LC}╚{Color.LB}    ╩ ╚═╝╚═╝╩═╝{Color.LG}v2  {Color.LG}║ {Color.LB}Simple but mighty XD {Color.LG}║
                         {Color.LG}╚══════════════════════╝
-    {Color.LR}[{Color.LG}>     Made with By NguyenDangTrinh 🇻🇳    {Color.LG}<{Color.LR}]""")
+    {Color.LR}[{Color.LG}>     Made with ☕ By FDc0d3 & Aya    {Color.LG}<{Color.LR}]""")
 		print(Color.LC+"    Type "+Color.LB+"'HELP'"+Color.LC+" to see all commands\n\n")
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" Proxy")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" WebTool")
@@ -94,13 +97,13 @@ class Home:
 				elif option in ['home', 'HOME']:
 					self.home()
 				elif option in ['clear', 'CLEAR']:
-					os.system('clear');Trinh-V2.home()
+					os.system('clear');F_Tool.home()
 				elif option in ['help', 'HELP', '?']:
 					print(self.help)
 				elif option in ['dev', 'DEV']:
 					print(self.dev)
 				elif option in ['exit', 'EXIT']:
-					subprocess.run(['pkill -f Trinh-V2.py'], shell=True)
+					subprocess.run(['pkill -f F-Tool.py'], shell=True)
 				elif option in ['stop', 'STOP']:
 					subprocess.run(['pkill screen'], shell=True)
 					print(f"{Color.LG} [!] Attack Stopped!")
@@ -303,7 +306,7 @@ class Tool:
 				elif option in ['dev', 'DEV']:
 					print(self.dev)
 				elif option in ['exit', 'EXIT']:
-					subprocess.run(['pkill -f Trinh-V2.py'], shell=True)
+					subprocess.run(['pkill -f F-Tool.py'], shell=True)
 				elif option in ['stop', 'STOP']:
 					subprocess.run(['pkill screen'], shell=True)
 					print(f"{Color.LG} [!] Attack Stopped!")
@@ -384,7 +387,7 @@ class Tool:
 			elif option in ['dev', 'DEV']:
 				print(self.dev)
 			elif option in ['exit', 'EXIT']:
-				subprocess.run(['pkill -f Trinh-V2.py'], shell=True)
+				subprocess.run(['pkill -f F-Tool.py'], shell=True)
 			elif option in ['stop', 'STOP']:
 				subprocess.run(['pkill screen'], shell=True)
 				print(f"{Color.LG} [!] Attack Stopped!")
@@ -463,7 +466,7 @@ class Tool:
 			elif option in ['dev', 'Dev']:
 				print(self.dev)
 			elif option in ['exit', 'EXIT']:
-				subprocess.run(['pkill -f Trinh-V2.py'], shell=True)
+				subprocess.run(['pkill -f F-Tool.py'], shell=True)
 			elif option in ['stop', 'STOP']:
 				subprocess.run(['pkill screen'], shell=True)
 				print(f"{Color.LG} [!] Attack Stopped!")
@@ -556,7 +559,7 @@ class Tool:
 			elif option in ['dev', 'DEV']:
 				print(self.dev)
 			elif option in ['exit', 'EXIT']:
-				subprocess.run(['pkill -f Trinh-V2.py'], shell=True)
+				subprocess.run(['pkill -f F-Tool.py'], shell=True)
 			elif option in ['stop', 'STOP']:
 				subprocess.run(['pkill screen'], shell=True)
 				print(f"{Color.LG} [!] Attack Stopped!")
@@ -633,7 +636,7 @@ class Tool:
 			elif option in ['dev', 'DEV']:
 				print(self.dev)
 			elif option in ['exit', 'EXIT']:
-				subprocess.run(['pkill -f Trinh-V2.py'], shell=True)
+				subprocess.run(['pkill -f F-Tool.py'], shell=True)
 			elif option in ['stop', 'STOP']:
 				subprocess.run(['pkill screen'], shell=True)
 				print(f"{Color.LG} [!] Attack Stopped!")
@@ -696,7 +699,7 @@ def main():
 	except IsADirectoryError:pass
 	except FileNotFoundError:
 		print(f"{Color.LR}[CRITICAL ERROR]:{Color.RESET} File: 'utils' NotFound")
-		print("\n[+] Please download on GitHub, or git clone: https://github.com/ngdangtr/dangtrinh.git\n")
+		print("\n[+] Please download on GitHub, or git clone: https://github.com/FDc0d3/F-Tool.git\n")
 		os.remove(f'{__file__}')
 		script = False
 	if script == False:sys.exit()
@@ -711,9 +714,9 @@ if __name__ == '__main__':
 {Color.LC}BBOS{Color.LR} ~> {Color.LY}L4/L7 DDOS Attack
 {Color.LC}STOP{Color.LR} ~> {Color.LY}Stop your Attack
 {Color.LC}DEV{Color.LR} ~> {Color.LY}Contact/Support dev"""
-	dev = f"""{Color.LC}Telegram{Color.LR}: {Color.LY}https://t.me/ngdangtr
-{Color.LC}Momo{Color.LR}: {Color.LY}0965849504"""
+	dev = f"""{Color.LC}Telegram{Color.LR}: {Color.LY}https://t.me/FDc0d3
+{Color.LC}New[BTC]Address{Color.LR}: {Color.LY}32FGCnt4uwkkByWuH8V4qyCSfynm1iVsmB"""
 	F_Tool = Home(commands, dev)
 	Tool = Tool(commands, dev, spoof_useragents())
-	try:open('Trinh-V2.py');main()
+	try:open('F-Tool.py');main()
 	except:quit()
