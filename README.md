@@ -1,6 +1,6 @@
 
 
-<h1 align="center">F-Tool - Powerful DDoS Script With 9 Methods</h1>
+<h1 align="center">T-Tool - Powerful DDoS Script With 9 Methods</h1>
 <em><h5 align="center">Programming Language - Python 3</h5></em>
 
 <p align="center">Please Don't Attack government websites.</p>
