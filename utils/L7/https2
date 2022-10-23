@@ -1,5 +1,5 @@
 
-// xD ~Aya
+// xD ~NguyenDangTrinh
 
 const url = require('url'),
 fs = require('fs'),
