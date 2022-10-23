@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-
+"""
+	 handsome list:
+		NguyenDangTrinh ~ NĐT ~ DevTrinh ~ DvlpNguyenDangTrinh ~ TrinhIT ~ DangTrinhIT 
 
 """
 from shutil import which
