@@ -27,7 +27,8 @@
 * Please use spoofed server for the best experience.
 
 * ```git clone https://github.com/ngdangtr/F-Tool```
-* ```cd F-Tool; sh install.sh```
+* ```cd F-Tool```
+* ```sh install.sh```
 
 * Install CentOS
 
