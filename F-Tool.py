@@ -65,11 +65,11 @@ class Home:
 	def home(self): # don't edit this banner lol
 		print(f"""
                         {Color.LG}╔══════════════════════╗
-    {Color.LC}╔═╗{Color.LB} ╔╦╗╔═╗╔═╗╦      {Color.LG}║ {Color.LR}Created: {Color.LY}5/3/22      {Color.LG}║
-    {Color.LC}╠╣{Color.LB}{Color.LR}───{Color.LB}║ ║ ║║ ║║      {Color.LG}║ {Color.LR}Updated: {Color.LY}8/3/22      {Color.LG}║
+    {Color.LC}╔═╗{Color.LB} ╔╦╗╔═╗╔═╗╦      {Color.LG}║ {Color.LR}Created: {Color.LY}1/8/2022      {Color.LG}║
+    {Color.LC}╠╣{Color.LB}{Color.LR}───{Color.LB}║ ║ ║║ ║║      {Color.LG}║ {Color.LR}Updated: {Color.LY}24/10/2022      {Color.LG}║
     {Color.LC}╚{Color.LB}    ╩ ╚═╝╚═╝╩═╝{Color.LG}v2  {Color.LG}║ {Color.LB}Simple but mighty XD {Color.LG}║
                         {Color.LG}╚══════════════════════╝
-    {Color.LR}[{Color.LG}>     Made with ☕ By NguyenDangTrinh    {Color.LG}<{Color.LR}]""")
+    {Color.LR}[{Color.LG}>     Made with By NguyenDangTrinh    {Color.LG}<{Color.LR}]""")
 		print(Color.LC+"    Type "+Color.LB+"'HELP'"+Color.LC+" to see all commands\n\n")
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" Proxy")
 		print(Color.LR+"["+Color.LG+"02"+Color.LR+"]"+Color.LC+" WebTool")
@@ -699,7 +699,7 @@ def main():
 	except IsADirectoryError:pass
 	except FileNotFoundError:
 		print(f"{Color.LR}[CRITICAL ERROR]:{Color.RESET} File: 'utils' NotFound")
-		print("\n[+] Please download on GitHub, or git clone: https://github.com/FDc0d3/F-Tool.git\n")
+		print("\n[+] Please download on GitHub, or git clone: https://github.com/ngdangtr/F-Tool.git\n")
 		os.remove(f'{__file__}')
 		script = False
 	if script == False:sys.exit()
@@ -714,8 +714,8 @@ if __name__ == '__main__':
 {Color.LC}BBOS{Color.LR} ~> {Color.LY}L4/L7 DDOS Attack
 {Color.LC}STOP{Color.LR} ~> {Color.LY}Stop your Attack
 {Color.LC}DEV{Color.LR} ~> {Color.LY}Contact/Support dev"""
-	dev = f"""{Color.LC}Telegram{Color.LR}: {Color.LY}https://t.me/FDc0d3
-{Color.LC}New[BTC]Address{Color.LR}: {Color.LY}32FGCnt4uwkkByWuH8V4qyCSfynm1iVsmB"""
+	dev = f"""{Color.LC}Telegram{Color.LR}: {Color.LY}https://t.me/ngdangtr
+{Color.LC}Momo{Color.LR}: {Color.LY}0965849504"""
 	F_Tool = Home(commands, dev)
 	Tool = Tool(commands, dev, spoof_useragents())
 	try:open('F-Tool.py');main()
