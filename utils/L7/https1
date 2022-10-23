@@ -1,4 +1,4 @@
-// old tls http1 by @yfork
+// old tls http1 by @ngdangtr
 
 process.on('uncaughtException', function(er) {
     //console.error(er)
