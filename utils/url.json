@@ -62,6 +62,11 @@
                "timeout": 5
           },
           {
+               "type": 3,
+               "url": "https://rcloak.com/api/proxies/raw?protocol=socks4",
+               "timeout": 5
+          },
+          {
                "type": 4,
                "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all",
                "timeout": 5
@@ -79,6 +84,11 @@
           {
                "type": 4,
                "url": "https://api.openproxylist.xyz/socks5.txt",
+               "timeout": 5
+          },
+          {
+               "type": 4,
+               "url": "https://rcloak.com/api/proxies/raw?protocol=socks5",
                "timeout": 5
           }
      ]
